@@ -3,11 +3,11 @@ PROGRAM-ID.  DEMO.
 PROCEDURE DIVISION.
 DisplayPrompt.
   DISPLAY '['
-          '{ "name": "Eirini Emmentaler", "brand": "brand", "price": "8" },'
-          '{ "name": "Cloud Foundry Camembert", "brand": "brand", "price": "18" },'
-          '{ "name": "Kubernetes Kanterkaas", "brand": "brand", "price": "7" },'
-          '{ "name": "RedHat Red Leicester", "brand": "brand", "price": "6" },'
-          '{ "name": "OpenShift Olivet Bleu", "brand": "brand", "price": "10" },'
-          '{ "name": "Childers Caciobarricato", "brand": "brand", "price": "14" }'
+          '{ "name": "Emmentaler", "brand": "Eirini", "price": "8" },'
+          '{ "name": "Camembert", "brand": "Cloud Foundry", "price": "18" },'
+          '{ "name": "Kanterkaas", "brand": "Kubernetes", "price": "7" },'
+          '{ "name": "Red Leicester", "brand": "RedHat", "price": "6" },'
+          '{ "name": "Olivet Bleu", "brand": "OpenShift", "price": "10" },'
+          '{ "name": "Caciobarricato", "brand": "Childers", "price": "14" }'
           ']'
   STOP RUN.
