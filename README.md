@@ -1,4 +1,4 @@
-# CFEE Eirini Storefront Backend
+# CloudFoundry Enterprise Storefront Backend
 A backend Cobol service providing a list of products used by the [frontend](https://github.com/IBM-Cloud/cfee-eirini-storefront/tree/master/frontend). 
 
 # Deploy the backend app to CFEE
