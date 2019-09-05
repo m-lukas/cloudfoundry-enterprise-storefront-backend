@@ -1,0 +1,34 @@
+{
+  "host": "0.0.0.0",
+  "port": 8080,
+  "reload_env": true,
+  "endpoints": [
+    {
+      "path": "/",
+      "methods": {
+        "GET": {
+          "type": "info"
+        }
+      }
+    },
+    {
+      "path": "/products",
+      "methods": {
+        "GET": {
+          "type": "shell",
+          "config": {
+            "shell": "/bin/bash",
+            "commands": [
+              {
+                "command": "/app/products",
+                "format": "jsonlines",
+                "return_command": false
+              }
+            ],
+            "single_result": 0
+          }
+        }
+      }
+    }
+  ]
+}
